@@ -106,9 +106,15 @@ main > section {
 }
 
 /* features related style */
+.features {
+    gap: 140px;
+}
 #feature-section-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
 }
 .feature-card {
     padding: 30px;
@@ -120,6 +126,26 @@ main > section {
     font-weight: 600;
     font-size: 1.25rem;
 }
+.feature-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.featured-architect img {
+    width: 100%;
+}
 
 /* some fact related styles */
 .fact-card {
@@ -130,6 +156,9 @@ main > section {
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
 }
 .facts-container {
     display: grid;
@@ -150,6 +179,11 @@ main > section {
     max-width: 540px;
     margin: 24px;
 }
+.features-title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #131313;
+}
 
 /* sponsor related style */
 .sponsor-info {
@@ -167,8 +201,7 @@ main > section {
 
 /* footer style */
 footer {
-    max-width: 1080px;
-    margin: 130px auto;
+    margin: 130px 0;
     background-color: rgba(255, 144, 14, 0.1);
     height: 100px;
     display: flex;
@@ -219,7 +252,8 @@ footer p {
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams, .features {
+    .teams, 
+    .features {
         flex-direction: column;
     }
     .our-features {
