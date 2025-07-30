@@ -201,7 +201,7 @@ main > section {
 
 /* footer style */
 footer {
-    margin: 130px 0;
+    margin: 130px 0 20px 0;
     background-color: rgba(255, 144, 14, 0.1);
     height: 100px;
     display: flex;
